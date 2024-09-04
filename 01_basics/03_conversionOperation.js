@@ -13,7 +13,7 @@ let valueInNumber = Number(score)
 //  true/false => typeof: Number => 1/0
 // null => typeof: Number => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "gaurav"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
