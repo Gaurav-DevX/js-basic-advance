@@ -44,7 +44,7 @@ const anotherGame = 'hulalaahulaaa';
 
 // console.log(anotherGame.concat('khuljaseemseem')); // The String to append to the end of the string . Returns a new string that contains the concatenation of two or more strings;
 
-console.log(anotherGame.);
+console.log(anotherGame);
 
 
 
