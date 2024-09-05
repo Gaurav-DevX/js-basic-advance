@@ -36,7 +36,7 @@
 
 // console.log(gameName.at(3));
 
-const anotherGame = 'hulalaahulaaa';
+const anotherGame = 'hulalaahulaaazoo';
 // console.log(anotherGame.charAt(5)); // It gives character at the given index;
 // console.log(anotherGame.charCodeAt(4)); // The zero-based index of the desired character at specified index, "NaN" is returned. Returns the Unicode value of the specified location.
 
@@ -45,8 +45,13 @@ const anotherGame = 'hulalaahulaaa';
 // console.log(anotherGame.concat('khuljaseemseem')); // The String to append to the end of the string . Returns a new string that contains the concatenation of two or more strings;
 
 console.log(anotherGame);
+// console.log(anotherGame.endsWith()); // Returns true if the sequence of elements of searchString converted to a String is the same as the corresponding elements of this object (converted to a String) starting at endPosition – length(this). Otherwise returns false.
+
+// console.log(anotherGame.includes('gaurav')); // Returns true if searchString appears as a substring of the result of converting this object to a String, at one or more positions that are greater than or equal to position; otherwise, returns false.
 
 
+// console.log(anotherGame.indexOf('z')); // The substring to search for in the string Returns the position of the first occurrence of a substring.
 
+console.log(anotherGame.lastIndexOf('h')); // Returns the last occurrence of a substring in the string.
 
 
