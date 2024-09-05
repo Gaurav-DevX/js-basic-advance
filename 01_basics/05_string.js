@@ -36,7 +36,7 @@
 
 // console.log(gameName.at(3));
 
-const anotherGame = 'hulalaahulaaazoo';
+const anotherGame = '     hulalaahulaaazoo ho gya kya yrr ye  ';
 // console.log(anotherGame.charAt(5)); // It gives character at the given index;
 // console.log(anotherGame.charCodeAt(4)); // The zero-based index of the desired character at specified index, "NaN" is returned. Returns the Unicode value of the specified location.
 
@@ -52,6 +52,23 @@ console.log(anotherGame);
 
 // console.log(anotherGame.indexOf('z')); // The substring to search for in the string Returns the position of the first occurrence of a substring.
 
-console.log(anotherGame.lastIndexOf('h')); // Returns the last occurrence of a substring in the string.
+// console.log(anotherGame.lastIndexOf('h')); // Returns the last occurrence of a substring in the string.
+
+// console.log(anotherGame.slice()); // The index to the beginning of the specified portion of stringObj. Returns a section of a string.
+
+// console.log(anotherGame.split('', 5)); // The split() method of String values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array.
+
+// console.log(anotherGame.trim()); // Removes the leading and trailing white space and line terminator characters from a string.
+
+const strObject = new String('Hello');
+
+console.log(strObject); // Expected output is ['Hello']
+
+
+console.log(strObject.valueOf()); // Expected output is Hello; // Returns the primitive value of the specified object.
+
+
+
+
 
 
